@@ -5,13 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Main Menu.unity
     guid: c338335721541ac4b8b83ecffdfca6d5
   - enabled: 1
-    path: Assets/Scenes/Testing_Grounds.unity
-    guid: fcea91f662aee104f89a62dcb2cfcc19
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Gonzo Grounds.unity
+    guid: fe5370982d6a38141926bd504b9c9b73
   m_configObjects: {}

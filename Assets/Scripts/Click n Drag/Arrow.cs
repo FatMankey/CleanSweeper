@@ -12,25 +12,28 @@ public class Arrow : MonoBehaviour
     
     public TileBehaviour tileBehaviour;
     public List<GameObject> ListOfTiles;
-    public Text NumberOfArrowsText;
+    public Image NumberImage; 
+    public Sprite[] NumberSprites;
     public int numberOfArrows = 5;
     public bool isOutOfArrows = false;
-
+    
+    private List<GameObject> myTiles;
     private GameObject tile;
     private Vector3 mousePos;
     private int _numberOfArrows = 0;
 
-    void Start( )
+    public void OnInit( int num )
     {
+        myTiles = new List<GameObject>( );
         tile = null;
+        numberOfArrows = num;
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
         foreach( GameObject go in GameObject.FindGameObjectsWithTag( "Point" ) )
         {
             ListOfTiles.Add( go );
         }
-
-        NumberOfArrowsText.text = "x" + _numberOfArrows.ToString();
+        NumberImage.sprite = NumberSprites[_numberOfArrows];
     }
 
     public void OnBeginDrag( )
@@ -60,8 +63,27 @@ public class Arrow : MonoBehaviour
 
     void PlaceTile( Vector3 pos )
     {
-        bool isInATile;
 
+        RaycastHit hit; 
+        Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition ); 
+        if( Physics.Raycast( ray, out hit ) )
+        {
+            if( hit.collider.gameObject.tag == "Point" )
+            {
+                if( hit.collider.GetComponentInChildren<TileBehaviour>( ) == null )
+                {                    
+                    tile.transform.parent = hit.collider.gameObject.transform;
+                    tile.transform.localPosition = Vector3.zero;
+                    myTiles.Add( tile );
+                    tile = null;
+                    _numberOfArrows--;
+                    NumberImage.sprite = NumberSprites[_numberOfArrows];
+                    isOutOfArrows = _numberOfArrows > 0 ? false : true;
+                }
+            }
+        }
+
+        /*bool isInATile;
         for( int i = 0; i < ListOfTiles.Count; i++ )
         {
             isInATile = false;
@@ -95,7 +117,7 @@ public class Arrow : MonoBehaviour
                 }
                 break;
             }
-        }
+        }*/
     }
 
     public void Reset( )
@@ -103,15 +125,17 @@ public class Arrow : MonoBehaviour
         Debug.Log( "Reset arrow" );
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
-        NumberOfArrowsText.text = "x" + _numberOfArrows.ToString();
+        NumberImage.sprite = NumberSprites[_numberOfArrows];
         tile = null;
 
-        for( int i = 0; i < ListOfTiles.Count; i++ )
+        if( myTiles.Count > 0 )
         {
-            if( ListOfTiles[i].transform.childCount > 0 )
+            for( int i = myTiles.Count - 1; i >= 0; i-- )
             {
-                Destroy( ListOfTiles[i].transform.GetChild(0).gameObject );
+                Destroy( myTiles[i] );
             }
         }
+
+        ListOfTiles.Clear();
     }
 }

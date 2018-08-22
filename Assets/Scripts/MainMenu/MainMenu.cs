@@ -9,10 +9,8 @@ public class MainMenu : MonoBehaviour
 {    
     public AudioMixer audioMixer;
     public Dropdown resolutionDropdown;
-    public Dropdown levelSelectDropdown;
 
     Resolution[] resolutions;
-    public int selectedLevel;
 
     void Start()
     {
@@ -35,23 +33,10 @@ public class MainMenu : MonoBehaviour
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
-
-        List<string> levelNames = new List<string>();
-        selectedLevel = 1;
-
-        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
-        {
-            if (i != 0)
-            levelNames.Add("Level " + i);
-        }
-
-        levelSelectDropdown.ClearOptions();
-        levelSelectDropdown.value = selectedLevel;
-        levelSelectDropdown.AddOptions(levelNames);
     }
     public void PlayGame()
     {
-        SceneManager.LoadScene(selectedLevel);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()
@@ -67,10 +52,5 @@ public class MainMenu : MonoBehaviour
     public void SetFullScreen( bool isFullScreen )
     {
         Screen.fullScreen = isFullScreen;
-    }
-
-    public void SetLevel (int num)
-    {
-        selectedLevel = num + 1;
     }
 }
