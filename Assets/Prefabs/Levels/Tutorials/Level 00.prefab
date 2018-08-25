@@ -4066,9 +4066,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDirection: 0
   anims:
-  - {fileID: 21300000, guid: f5aee8a01da23b74390ea9ac0df07f28, type: 3}
-  - {fileID: 21300000, guid: 27935fd3765a3c844be7dde197a5e0d9, type: 3}
-  - {fileID: 21300000, guid: 511a85fec23e4ef46853696be6120c9b, type: 3}
+  - {fileID: 21300000, guid: 41f12a0b69b692f4c8d8b04823b38962, type: 3}
+  - {fileID: 21300000, guid: 76fda1b9426122d4eb57650ec267b0b2, type: 3}
+  - {fileID: 21300000, guid: e8ba379083d980d4ba995fdf984d3f69, type: 3}
   dir: {x: 0, y: 0, z: 0}
   moveSpeed: 9
   hasHitGoal: 0
@@ -6343,7 +6343,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 681522cb9f4c3584da72429294c5ea84, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 41f12a0b69b692f4c8d8b04823b38962, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
