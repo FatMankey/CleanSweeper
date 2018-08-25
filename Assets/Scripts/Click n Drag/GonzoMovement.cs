@@ -73,7 +73,7 @@ public class GonzoMovement : MonoBehaviour
         yield return new WaitForSeconds( ( 1 / moveSpeed ) * 3 );
         isRotating = true;
         transform.position = obj.transform.position;
-        yield return new WaitForSeconds( 0.5f );
+        yield return new WaitForSeconds( 0.1f );
         isRotating = false;
         ChangeDirection( _dir );
     }

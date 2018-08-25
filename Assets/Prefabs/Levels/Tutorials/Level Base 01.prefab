@@ -4287,12 +4287,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveDirection: 0
-  WinnerBanner: {fileID: 1951085405397330}
+  anims: []
   dir: {x: 0, y: 0, z: 0}
   moveSpeed: 9
   hasHitGoal: 0
   hasHitWall: 0
   isReady: 0
+  isRotating: 0
 --- !u!114 &114776353770097714
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4320,14 +4321,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d232b63b9a3ab244a99549cbd985c137, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gonzoMovement: {fileID: 114771343036500714}
-  arrows:
-  - {fileID: 114643033888439826}
-  - {fileID: 114071615470819024}
-  - {fileID: 114505095906556448}
-  - {fileID: 114403719884919150}
+  gonzoMovement:
+  - {fileID: 0}
+  Arrows: []
   GoButton: {fileID: 1563032188848190}
   ResetButton: {fileID: 1930090748642224}
+  WinnerBanner: {fileID: 0}
 --- !u!114 &114784029751681186
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5176,7 +5175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 3
   m_Sprite: {fileID: 21300000, guid: df30c8c3646614e48b850c0bebb60cbe, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
