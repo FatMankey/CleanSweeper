@@ -65,7 +65,7 @@ public class ButtonManager : MonoBehaviour
             }
     }
 
-    ResetButton.SetActive( false );
+        ResetButton.SetActive( false );
         GoButton.SetActive( true );
     }
 
