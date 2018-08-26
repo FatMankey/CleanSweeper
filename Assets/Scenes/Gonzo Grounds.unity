@@ -204,8 +204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LoadingFrame: {fileID: 551576553}
   Levels:
-  - {fileID: 1508451379935768, guid: 510626ecdaca79a4d869b7f2c896a801, type: 2}
-  - {fileID: 1940023139254096, guid: 522b1913b6d231a45bccae8e1c5bc7dc, type: 2}
+  - {fileID: 1248056246722114, guid: 5d51d860d1b917a42ba292aa2f59e44f, type: 2}
+  - {fileID: 1535254513880218, guid: ef661a5841f3c59478e2f1c1eed3ae84, type: 2}
   - {fileID: 1384686692437762, guid: 345968723c6590544b2db73452fb9b23, type: 2}
   - {fileID: 1300281261570910, guid: b55d92a9043a4b3459369b98e490016f, type: 2}
   - {fileID: 1040481017351762, guid: e1f41a275251c9e48809464492b8d6c7, type: 2}
@@ -215,6 +215,8 @@ MonoBehaviour:
   - {fileID: 1292507812712732, guid: fec6da7a74d30964d9631d6e6e295432, type: 2}
   - {fileID: 1006682408755032, guid: 610cab9855018c348be1c08c913f39ab, type: 2}
   - {fileID: 1388034704332196, guid: 8ddde1de4fcd60249acdccbbb5809cc9, type: 2}
+  - {fileID: 1543190520538200, guid: 02a8688c017d5b140a00ac79b6f889bb, type: 2}
+  - {fileID: 1535254513880218, guid: ef661a5841f3c59478e2f1c1eed3ae84, type: 2}
   currentLevelCounter: 0
 --- !u!4 &230936003
 Transform:
