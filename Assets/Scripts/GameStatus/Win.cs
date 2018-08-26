@@ -5,9 +5,7 @@ using UnityEngine;
 public class Win : MonoBehaviour
 {
     public GameObject current;
-
     public GameObject Goal;
-
     public GameObject WinScreen;
 
     // Use this for initialization

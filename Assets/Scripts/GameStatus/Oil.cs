@@ -16,7 +16,7 @@ public class Oil : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.CompareTag("Oil")) {
+        if (other.tag == "Oil") {
             print("we got hit");
             StartCoroutine(destroyOil(other.gameObject));
         }
