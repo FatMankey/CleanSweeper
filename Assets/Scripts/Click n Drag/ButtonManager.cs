@@ -5,6 +5,7 @@ using UnityEngine;
 public class ButtonManager : MonoBehaviour
 {
     public GonzoMovement[] gonzoMovement;
+    public GameObject[] OilsGameObject;
     [System.Serializable]
     public class CustomArrows
     {
@@ -34,6 +35,8 @@ public class ButtonManager : MonoBehaviour
         {
             gonzoMovement[i].OnInit( );
         }
+
+        OilsGameObject = GameObject.FindGameObjectsWithTag("Oil");
     }
 
     public void OnGoButton( )
@@ -46,17 +49,23 @@ public class ButtonManager : MonoBehaviour
         ResetButton.SetActive( true );
     }
 
-    public void OnResetButton( )
-    {
-        for( int i = 0; i < Arrows.Length; i++ )
-        {
-            Arrows[i].arrow.Reset( );
+    public void OnResetButton() {
+        for (int i = 0; i < Arrows.Length; i++) {
+            Arrows[i].arrow.Reset();
         }
-        for( int i = 0; i < gonzoMovement.Length; i++ )
-        {
-            gonzoMovement[i].Reset( );
+
+        for (int i = 0; i < gonzoMovement.Length; i++) {
+            gonzoMovement[i].Reset();
         }
-        ResetButton.SetActive( false );
+
+        if (OilsGameObject != null || OilsGameObject.Length != 0){
+            foreach (var go in OilsGameObject) {
+                go.SetActive(true);
+
+            }
+    }
+
+    ResetButton.SetActive( false );
         GoButton.SetActive( true );
     }
 

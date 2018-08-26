@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Oil : MonoBehaviour {
     //  FUTURE STUB
-    //public GameObject[] AmountOfOil;
+    public GameObject[] AmountOfOil;
     public Text ScoreBanner;
     public int ValueOfOil = 0;
     public int CurrentScore = 0;
@@ -16,7 +16,10 @@ public class Oil : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
-        if (other.tag == "Oil") {
+        // tag == "" creates overhead and adds garbage to the collection...
+        // CompareTag == "" doesnt and uses almost no memory lol
+        //if (other.tag == "Oil")
+            if(other.CompareTag("Oil")){
             print("we got hit");
             StartCoroutine(destroyOil(other.gameObject));
         }
@@ -30,4 +33,5 @@ public class Oil : MonoBehaviour {
         others.SetActive(false);
         ScoreUpdate(ValueOfOil);
     }
+
 }
