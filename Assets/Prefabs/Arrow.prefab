@@ -125,7 +125,8 @@ MonoBehaviour:
   tileBehaviour: {fileID: 114886821609709990, guid: 9f48b38ee8d134141a59d73ced80ea6f,
     type: 2}
   ListOfTiles: []
-  NumberOfArrowsText: {fileID: 114167052997273418}
+  NumberImage: {fileID: 0}
+  NumberSprites: []
   numberOfArrows: 5
   isOutOfArrows: 0
 --- !u!114 &114167052997273418
