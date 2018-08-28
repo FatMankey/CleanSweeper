@@ -225,6 +225,7 @@ MonoBehaviour:
   - {fileID: 1244917321637964, guid: 00217417afb55b749b860b90f6dc6ff0, type: 2}
   - {fileID: 1800048094170782, guid: 31e7992818975bd4b8f45074adc65e0c, type: 2}
   - {fileID: 1485497317709356, guid: dc060a8b12e27af4a86c112c38fd155d, type: 2}
+  - {fileID: 1236679127834972, guid: 7233de9b9fb11194f800a1cf1bbf3fb4, type: 2}
   currentLevelCounter: 0
 --- !u!4 &230936003
 Transform:
