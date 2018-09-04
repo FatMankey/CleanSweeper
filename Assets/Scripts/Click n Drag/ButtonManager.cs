@@ -24,8 +24,8 @@ public class ButtonManager : MonoBehaviour
     void OnEnable( )
     {
         lMan = FindObjectOfType<LevelManager>( );
-        ResetButton.SetActive( false );
-        GoButton.SetActive( true );
+        //ResetButton.SetActive( false );
+        //GoButton.SetActive( true );
         roombaCounter = 0;
         for( int i = 0; i < 4; i++ )
         {
@@ -45,8 +45,8 @@ public class ButtonManager : MonoBehaviour
         {
             gonzoMovement[i].OnStart( );
         }
-        GoButton.SetActive( false );
-        ResetButton.SetActive( true );
+        //GoButton.SetActive( false );
+        //ResetButton.SetActive( true );
     }
 
     public void OnResetButton() {
@@ -65,8 +65,8 @@ public class ButtonManager : MonoBehaviour
             }
     }
 
-        ResetButton.SetActive( false );
-        GoButton.SetActive( true );
+        //ResetButton.SetActive( false );
+        //GoButton.SetActive( true );
     }
 
     public void OnEnterGoal( )
@@ -81,7 +81,7 @@ public class ButtonManager : MonoBehaviour
     IEnumerator StartGameWon( )
     {
         WinnerBanner.SetActive( true );
-        yield return new WaitForSeconds( 3.0f );
+        yield return new WaitForSeconds( 2.5f );
         WinnerBanner.SetActive( false );
         lMan.OnNextLevel( );
     }

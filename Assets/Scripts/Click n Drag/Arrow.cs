@@ -9,11 +9,13 @@ public class Arrow : MonoBehaviour
     // tile object. This tile object will be a 
     // prefab that will become a child to the tile
     // it is currently hovered over
-    
+
     public TileBehaviour tileBehaviour;
     public List<GameObject> ListOfTiles;
-    public Image NumberImage; 
+    public Image NumberImage;
+    public Image ArrowImage;
     public Sprite[] NumberSprites;
+    public Sprite[] ArrowSprites;
     public int numberOfArrows = 5;
     public bool isOutOfArrows = false;
     
@@ -34,6 +36,7 @@ public class Arrow : MonoBehaviour
             ListOfTiles.Add( go );
         }
         NumberImage.sprite = NumberSprites[_numberOfArrows];
+        ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
     }
 
     public void OnBeginDrag( )
@@ -79,45 +82,10 @@ public class Arrow : MonoBehaviour
                     _numberOfArrows--;
                     NumberImage.sprite = NumberSprites[_numberOfArrows];
                     isOutOfArrows = _numberOfArrows > 0 ? false : true;
+                    ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
                 }
             }
         }
-
-        /*bool isInATile;
-        for( int i = 0; i < ListOfTiles.Count; i++ )
-        {
-            isInATile = false;
-
-            int leftA = (int)pos.x;
-            int rightA = (int)pos.x;
-            int topA = (int)pos.y;
-            int bottomA = (int)pos.y;
-            
-            int leftB = (int)ListOfTiles[i].transform.position.x;
-            int rightB = (int)ListOfTiles[i].transform.position.x * (int)ListOfTiles[i].transform.localScale.x;
-            int topB = (int)ListOfTiles[i].transform.position.y;
-            int bottomB = (int)ListOfTiles[i].transform.position.y * (int)ListOfTiles[i].transform.localScale.y;
-
-            //Debug.Log( leftA + ":" + rightA + ":" + topA + ":" + bottomA + "__" + leftB + ":" + rightB + ":" + topB + ":" + bottomB );
-
-            if( leftA == leftB && rightA == rightB && topA == topB && bottomA == bottomB )
-                isInATile = true;
-
-            if( isInATile )
-            {
-                Debug.Log( "We Have A MATCH!!!!!" );
-                if( ListOfTiles[i].GetComponentInChildren<TileBehaviour>( ) == null )
-                {
-                    tile.transform.parent = ListOfTiles[i].transform;
-                    tile.transform.localPosition = Vector3.zero;
-                    tile = null;
-                    _numberOfArrows--;
-                    NumberOfArrowsText.text = "x" + _numberOfArrows.ToString();
-                    isOutOfArrows = _numberOfArrows > 0 ? false : true;
-                }
-                break;
-            }
-        }*/
     }
 
     public void Reset( )
@@ -126,6 +94,7 @@ public class Arrow : MonoBehaviour
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
         NumberImage.sprite = NumberSprites[_numberOfArrows];
+        ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
         tile = null;
 
         if( myTiles.Count > 0 )
@@ -135,7 +104,6 @@ public class Arrow : MonoBehaviour
                 Destroy( myTiles[i] );
             }
         }
-
         ListOfTiles.Clear();
     }
 }
