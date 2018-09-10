@@ -11,42 +11,42 @@ public class PauseMenuManager : MonoBehaviour
     public GameObject PauseMenuUI;
     public GameObject OptionMenuUI;
 
-    void Start( )
+    private void Start()
     {
-        Resume( );
+        Resume();
     }
 
-    void Update( )
+    private void Update()
     {
-        if( Input.GetKeyDown( KeyCode.Escape ) )
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if( !isGamePaused )
-                Pause( );
+            if (!isGamePaused)
+                Pause();
             else
-                Resume( );
+                Resume();
         }
     }
 
-    public void Resume( )
+    public void Resume()
     {
-        PauseMenuUI.SetActive( true );
-        PauseMenuParentUI.SetActive( false );
+        PauseMenuUI.SetActive(true);
+        PauseMenuParentUI.SetActive(false);
         Time.timeScale = 1.0f;
         isGamePaused = false;
     }
 
-    void Pause( )
+    private void Pause()
     {
-        OptionMenuUI.SetActive( false );
-        PauseMenuUI.SetActive( true );
-        PauseMenuParentUI.SetActive( true );
+        OptionMenuUI.SetActive(false);
+        PauseMenuUI.SetActive(true);
+        PauseMenuParentUI.SetActive(true);
         Time.timeScale = 0.0f;
         isGamePaused = true;
     }
-	
-    public void LoadMenu( )
+
+    public void LoadMenu()
     {
-        SceneManager.LoadScene( 0 );
-        Destroy( gameObject );
+        SceneManager.LoadScene(0);
+        Destroy(gameObject);
     }
 }

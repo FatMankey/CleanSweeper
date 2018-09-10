@@ -8,6 +8,7 @@ TagManager:
   - Wall
   - Goal
   - Oil
+  - MainMenuCanvas
   layers:
   - Default
   - TransparentFX
