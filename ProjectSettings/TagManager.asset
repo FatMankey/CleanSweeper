@@ -9,6 +9,7 @@ TagManager:
   - Goal
   - Oil
   - MainMenuCanvas
+  - Button
   layers:
   - Default
   - TransparentFX
