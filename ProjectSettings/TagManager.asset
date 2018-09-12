@@ -10,6 +10,7 @@ TagManager:
   - Oil
   - MainMenuCanvas
   - Button
+  - Video
   layers:
   - Default
   - TransparentFX

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MouseCursor : MonoBehaviour
 {
@@ -14,6 +10,7 @@ public class MouseCursor : MonoBehaviour
     private void Start()
     {
         Cursor.SetCursor(CursorTexture, HotSpot, CursorMode);
+        Cursor.visible = !GameObject.FindGameObjectWithTag("Video").activeSelf;
     }
 
     private void OnMouseEnter()
@@ -33,8 +30,16 @@ public class MouseCursor : MonoBehaviour
 
     private void Update()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.SetCursor(Input.GetMouseButton(0) ? CursorTextureClick : CursorTexture, HotSpot, CursorMode);
-        //Cursor.visible = false;
+        if (GameObject.FindGameObjectWithTag("Video") != null)
+        {
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.SetCursor(Input.GetMouseButton(0) ? CursorTextureClick : CursorTexture, HotSpot, CursorMode);
+            //Cursor.visible = false;
+        }
     }
 }
