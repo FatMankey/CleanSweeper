@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 using UnityEngine.Video;
 
 public class Movie_Opening : MonoBehaviour
@@ -6,11 +7,13 @@ public class Movie_Opening : MonoBehaviour
     public VideoPlayer vp;
 
     public Canvas MainMenuCanvas;
+    public Canvas FadeCanvas;
+    public Animator FadeAnimator;
 
-    // Use this for initialization
-    private void Start()
+    private void Awake()
     {
-        vp = GetComponent<VideoPlayer>();
+        FadeAnimator.StopPlayback();
+        FadeCanvas.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -23,10 +26,32 @@ public class Movie_Opening : MonoBehaviour
                 MainMenuCanvas.gameObject.SetActive(false);
             }
         }
-        if (!vp.isPlaying && !MainMenuCanvas.gameObject.activeInHierarchy)
+
+        if (!vp.isPlaying)
         {
-            MainMenuCanvas.gameObject.SetActive(true);
-            vp.gameObject.SetActive(false);
+            if (!FadeCanvas.gameObject.activeInHierarchy)
+            {
+                FadeCanvas.gameObject.SetActive(true);
+                FadeAnimator.StartPlayback();
+                FadeAnimator.Play("Fading");
+            }
+
+            if (!MainMenuCanvas.gameObject.activeInHierarchy)
+            {
+                DelayedActivation();
+            }
         }
+    }
+
+    private void DelayedActivation()
+    {
+        StartCoroutine(DelayedActivationCoroutine());
+    }
+
+    private IEnumerator DelayedActivationCoroutine()
+    {
+        //FadeAnimator.StartPlayback();
+        yield return new WaitForSecondsRealtime(1);
+        MainMenuCanvas.gameObject.SetActive(true);
     }
 }
