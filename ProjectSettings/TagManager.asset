@@ -11,6 +11,7 @@ TagManager:
   - MainMenuCanvas
   - Button
   - Video
+  - Fade
   layers:
   - Default
   - TransparentFX
