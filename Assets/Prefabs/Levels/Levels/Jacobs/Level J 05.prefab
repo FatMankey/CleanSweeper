@@ -7494,7 +7494,7 @@ MonoBehaviour:
     numberOfArrows: 2
   - name: Right
     arrow: {fileID: 114500890976661954}
-    numberOfArrows: 2
+    numberOfArrows: 3
   - name: Left
     arrow: {fileID: 114338522165085402}
     numberOfArrows: 2
