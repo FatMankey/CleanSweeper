@@ -30,7 +30,7 @@ public class MouseCursor : MonoBehaviour
 
     private void Update()
     {
-        if (GameObject.FindGameObjectWithTag("Video") != null)
+        if (GameObject.FindGameObjectWithTag("Video") != null && GameObject.FindGameObjectWithTag("Fade") == null)
         {
             Cursor.visible = false;
         }

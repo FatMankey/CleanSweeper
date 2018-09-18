@@ -5,11 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenuManager : MonoBehaviour
 {
-    public static bool isGamePaused = false;
+    public static bool IsGamePaused = false;
 
-    public GameObject PauseMenuParentUI;
-    public GameObject PauseMenuUI;
-    public GameObject OptionMenuUI;
+    public GameObject PauseMenuParentUi;
+    public GameObject PauseMenuUi;
 
     private void Start()
     {
@@ -18,35 +17,38 @@ public class PauseMenuManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            if (!isGamePaused)
-                Pause();
-            else
-                Resume();
-        }
+        if (!Input.GetKeyDown(KeyCode.Escape)) return;
+        if (!IsGamePaused)
+            Pause();
+        else
+            Resume();
     }
 
     public void Resume()
     {
-        PauseMenuUI.SetActive(true);
-        PauseMenuParentUI.SetActive(false);
+        PauseMenuUi.SetActive(true);
+        PauseMenuParentUi.SetActive(false);
         Time.timeScale = 1.0f;
-        isGamePaused = false;
+        IsGamePaused = false;
     }
 
     private void Pause()
     {
-        OptionMenuUI.SetActive(false);
-        PauseMenuUI.SetActive(true);
-        PauseMenuParentUI.SetActive(true);
+        PauseMenuUi.SetActive(true);
+        PauseMenuParentUi.SetActive(true);
         Time.timeScale = 0.0f;
-        isGamePaused = true;
+        IsGamePaused = true;
     }
 
     public void LoadMenu()
     {
         SceneManager.LoadScene(0);
+        Destroy(gameObject);
+    }
+
+    public void LoadLevelManager()
+    {
+        SceneManager.LoadScene(1);
         Destroy(gameObject);
     }
 }
