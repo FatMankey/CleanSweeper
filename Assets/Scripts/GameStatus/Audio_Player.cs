@@ -5,7 +5,7 @@ using UnityEngine.Video;
 
 public class Audio_Player : MonoBehaviour
 {
-    private AudioSource AudioS;
+    public AudioSource AudioS;
 
     private VideoPlayer VideoP;
 
@@ -25,7 +25,7 @@ public class Audio_Player : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        _isStillPlaying = VideoP.isActiveAndEnabled;
+        _isStillPlaying = VideoP.isPlaying;
         if (!_isStillPlaying && !AudioS.isPlaying)
         {
             AudioS.Play();
