@@ -1,0 +1,3374 @@
+fileFormatVersion: 2
+guid: e9af47b72c1749d4a9502b41e5ebf551
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Black_Roomba_Sprite_0
+    21300002: Black_Roomba_Sprite_1
+    21300004: Black_Roomba_Sprite_2
+    21300006: Black_Roomba_Sprite_3
+    21300008: Black_Roomba_Sprite_4
+    21300010: Black_Roomba_Sprite_5
+    21300012: Black_Roomba_Sprite_6
+    21300014: Black_Roomba_Sprite_7
+    21300016: Black_Roomba_Sprite_8
+    21300018: Black_Roomba_Sprite_9
+    21300020: Black_Roomba_Sprite_10
+    21300022: Black_Roomba_Sprite_11
+    21300024: Black_Roomba_Sprite_12
+    21300026: Black_Roomba_Sprite_13
+    21300028: Black_Roomba_Sprite_14
+    21300030: Black_Roomba_Sprite_15
+    21300032: Black_Roomba_Sprite_16
+    21300034: Black_Roomba_Sprite_17
+    21300036: Black_Roomba_Sprite_18
+    21300038: Black_Roomba_Sprite_19
+    21300040: Black_Roomba_Sprite_20
+    21300042: Black_Roomba_Sprite_21
+    21300044: Black_Roomba_Sprite_22
+    21300046: Black_Roomba_Sprite_23
+    21300048: Black_Roomba_Sprite_24
+    21300050: Black_Roomba_Sprite_25
+    21300052: Black_Roomba_Sprite_26
+    21300054: Black_Roomba_Sprite_27
+    21300056: Black_Roomba_Sprite_28
+    21300058: Black_Roomba_Sprite_29
+    21300060: Black_Roomba_Sprite_30
+    21300062: Black_Roomba_Sprite_31
+    21300064: Black_Roomba_Sprite_32
+    21300066: Black_Roomba_Sprite_33
+    21300068: Black_Roomba_Sprite_34
+    21300070: Black_Roomba_Sprite_35
+    21300072: Black_Roomba_Sprite_36
+    21300074: Black_Roomba_Sprite_37
+    21300076: Black_Roomba_Sprite_38
+    21300078: Black_Roomba_Sprite_39
+    21300080: Black_Roomba_Sprite_40
+    21300082: Black_Roomba_Sprite_41
+    21300084: Black_Roomba_Sprite_42
+    21300086: Black_Roomba_Sprite_43
+    21300088: Black_Roomba_Sprite_44
+    21300090: Black_Roomba_Sprite_45
+    21300092: Black_Roomba_Sprite_46
+    21300094: Black_Roomba_Sprite_47
+    21300096: Black_Roomba_Sprite_48
+    21300098: Black_Roomba_Sprite_49
+    21300100: Black_Roomba_Sprite_50
+    21300102: Black_Roomba_Sprite_51
+    21300104: Black_Roomba_Sprite_52
+    21300106: Black_Roomba_Sprite_53
+    21300108: Black_Roomba_Sprite_54
+    21300110: Black_Roomba_Sprite_55
+    21300112: Black_Roomba_Sprite_56
+    21300114: Black_Roomba_Sprite_57
+    21300116: Black_Roomba_Sprite_58
+    21300118: Black_Roomba_Sprite_59
+    21300120: Black_Roomba_Sprite_60
+    21300122: Black_Roomba_Sprite_61
+    21300124: Black_Roomba_Sprite_62
+    21300126: Black_Roomba_Sprite_63
+    21300128: Black_Roomba_Sprite_64
+    21300130: Black_Roomba_Sprite_65
+    21300132: Black_Roomba_Sprite_66
+    21300134: Black_Roomba_Sprite_67
+    21300136: Black_Roomba_Sprite_68
+    21300138: Black_Roomba_Sprite_69
+    21300140: Black_Roomba_Sprite_70
+    21300142: Black_Roomba_Sprite_71
+    21300144: Black_Roomba_Sprite_72
+    21300146: Black_Roomba_Sprite_73
+    21300148: Black_Roomba_Sprite_74
+    21300150: Black_Roomba_Sprite_75
+    21300152: Black_Roomba_Sprite_76
+    21300154: Black_Roomba_Sprite_77
+    21300156: Black_Roomba_Sprite_78
+    21300158: Black_Roomba_Sprite_79
+    21300160: Black_Roomba_Sprite_80
+    21300162: Black_Roomba_Sprite_81
+    21300164: Black_Roomba_Sprite_82
+    21300166: Black_Roomba_Sprite_83
+    21300168: Black_Roomba_Sprite_84
+    21300170: Black_Roomba_Sprite_85
+    21300172: Black_Roomba_Sprite_86
+    21300174: Black_Roomba_Sprite_87
+    21300176: Black_Roomba_Sprite_88
+    21300178: Black_Roomba_Sprite_89
+    21300180: Black_Roomba_Sprite_90
+    21300182: Black_Roomba_Sprite_91
+    21300184: Black_Roomba_Sprite_92
+    21300186: Black_Roomba_Sprite_93
+    21300188: Black_Roomba_Sprite_94
+    21300190: Black_Roomba_Sprite_95
+    21300192: Black_Roomba_Sprite_96
+    21300194: Black_Roomba_Sprite_97
+    21300196: Black_Roomba_Sprite_98
+    21300198: Black_Roomba_Sprite_99
+    21300200: Black_Roomba_Sprite_100
+    21300202: Black_Roomba_Sprite_101
+    21300204: Black_Roomba_Sprite_102
+    21300206: Black_Roomba_Sprite_103
+    21300208: Black_Roomba_Sprite_104
+    21300210: Black_Roomba_Sprite_105
+    21300212: Black_Roomba_Sprite_106
+    21300214: Black_Roomba_Sprite_107
+    21300216: Black_Roomba_Sprite_108
+    21300218: Black_Roomba_Sprite_109
+    21300220: Black_Roomba_Sprite_110
+    21300222: Black_Roomba_Sprite_111
+    21300224: Black_Roomba_Sprite_112
+    21300226: Black_Roomba_Sprite_113
+    21300228: Black_Roomba_Sprite_114
+    21300230: Black_Roomba_Sprite_115
+    21300232: Black_Roomba_Sprite_116
+    21300234: Black_Roomba_Sprite_117
+    21300236: Black_Roomba_Sprite_118
+    21300238: Black_Roomba_Sprite_119
+    21300240: Black_Roomba_Sprite_120
+    21300242: Black_Roomba_Sprite_121
+    21300244: Black_Roomba_Sprite_122
+    21300246: Black_Roomba_Sprite_123
+    21300248: Black_Roomba_Sprite_124
+    21300250: Black_Roomba_Sprite_125
+    21300252: Black_Roomba_Sprite_126
+    21300254: Black_Roomba_Sprite_127
+    21300256: Black_Roomba_Sprite_128
+    21300258: Black_Roomba_Sprite_129
+    21300260: Black_Roomba_Sprite_130
+    21300262: Black_Roomba_Sprite_131
+    21300264: Black_Roomba_Sprite_132
+    21300266: Black_Roomba_Sprite_133
+    21300268: Black_Roomba_Sprite_134
+    21300270: Black_Roomba_Sprite_135
+    21300272: Black_Roomba_Sprite_136
+    21300274: Black_Roomba_Sprite_137
+    21300276: Black_Roomba_Sprite_138
+    21300278: Black_Roomba_Sprite_139
+    21300280: Black_Roomba_Sprite_140
+    21300282: Black_Roomba_Sprite_141
+    21300284: Black_Roomba_Sprite_142
+    21300286: Black_Roomba_Sprite_143
+    21300288: Black_Roomba_Sprite_144
+    21300290: Black_Roomba_Sprite_145
+    21300292: Black_Roomba_Sprite_146
+    21300294: Black_Roomba_Sprite_147
+    21300296: Black_Roomba_Sprite_148
+    21300298: Black_Roomba_Sprite_149
+    21300300: Black_Roomba_Sprite_150
+    21300302: Black_Roomba_Sprite_151
+    21300304: Black_Roomba_Sprite_152
+    21300306: Black_Roomba_Sprite_153
+    21300308: Black_Roomba_Sprite_154
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f19108c177f1e4d8ed662e3fb5588a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_1
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ae3841504dc044ba6c128189597f97
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_2
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd03653d68f372b4081359fceac89540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_3
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198084edcfbfef341af57ac8c7b6548e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_4
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2e72bf4329b3c42aa8ab89c03d5c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_5
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c575f1a8f95a4690d379b0dee9efd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_6
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1c1ec7e407ddcb4aa8598e14b4cec52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_7
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a3f85f88c574244aa7acc8925bc1af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_8
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83314e7260c89d44294fea9d87b05189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_9
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06a6f78a1b3458429cf4fb69f4d3e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_10
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec49b7e9eb7149944a3b0e1d6e12ee61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_11
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cd2381fb22cf14bb279eeaf451ae08
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_12
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef5fbc4939652a439f2a5fc3d83dd3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_13
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 056194ec3189b8349bd25ef0a81e4674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_14
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0e4d90827e32046b1d41d27f8193a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_15
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2266fc8df5fe1dc42a03270f812a70a5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_16
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2332c4e76b26834094f8d7d16cca525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_17
+      rect:
+        serializedVersion: 2
+        x: 12580
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a2c389f7fe1e54aa2919894345c71e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_18
+      rect:
+        serializedVersion: 2
+        x: 13320
+        y: 4425
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4aa0cd03fe38784e924c30e8b7527f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 168ec68c8a6a4d44096f51f8f04c791a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_20
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e21580fa2df8c449b2ccd9124b19429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_21
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af503c8fd4c38ad4bbef6b50e569a1a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_22
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e599725bd4cf9e1408e167c93368ef51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_23
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4e41b595ef9164c9c355079b8fabca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_24
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8dfe96500a97e4399f221101732999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_25
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e9fde2d60f64d4fa3a16d6c9058da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_26
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52246c2ed081184fa87a9168a2abf90
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_27
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1caa595ce3bdf7645883e4619b6d4dd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_28
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5633f4b785a3a1b44b98b8842bea6ccf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_29
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e97761b47097fb46b6923092a475e76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_30
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b7eda2f2db62d4188d5049632b6814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_31
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f92bf80d704830f4aa6dc1db74d1ab6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_32
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cd50c38be03d9c4a963c533cf5a52ab
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_33
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3c6ed900a9dad44bef77e58962d13f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_34
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc97014025c477046bee3edff5e92a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_35
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c91c1a0c78c63ad44965ae7c46c7f864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_36
+      rect:
+        serializedVersion: 2
+        x: 12580
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9175b26f110cf8e47b91f1ce4ae2356d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_37
+      rect:
+        serializedVersion: 2
+        x: 13320
+        y: 3875
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1753a404d467c43963ed0e77b37aa8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a287aa94b1ed07e4cbd0c1ff9c4d48bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_39
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e612f300b7457f2499c60346443e9b96
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_40
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc24bdb8fc6f494a88f9e87e2da1089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_41
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df66b655ff312b8458eb27c9067e1a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_42
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7177388b01f21346a25e54fd7c6a995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_43
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f56301326026e0449d8ce45d7dbcec0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_44
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72c2946323f9b044b80a3b2847fd63ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_45
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad53cd49cc000bc4191f3b1105970782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_46
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa333dc694b20f74ea85fdd06050a319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_47
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac15c6b5f80d0842835884dc30e2cdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_48
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76a8aaa0fb1dc044a90d96165a75d3f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_49
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83b73bf0cfd3f444a9b56bfa9ffc444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_50
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b07bd214b007a4587079ce56c2bad6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_51
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaec19ad9e1efea46911782aed7da7b1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_52
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ebd65c1325493458711d61ab1c5f45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_53
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db5cfc9f2fcfa94a943c620f7c54d73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_54
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd7e882a5c545a429cd0f3f7cae0ab2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_55
+      rect:
+        serializedVersion: 2
+        x: 12580
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a459775740af4d46ae122f9c67fd330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_56
+      rect:
+        serializedVersion: 2
+        x: 13320
+        y: 3325
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74e29f44b1dba28408e3701e4c7f06db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 102ca5fa0b847084f81e04546487e5d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_58
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f866b50199272c14fb7aa48768a919b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_59
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d4f20de0de6d644a252dfb7ad3e8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_60
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a606bde01476a54e8807273dec0ca11
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_61
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ef15e3232029145bda297b4f391027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_62
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614cc8639f00daa44a2ac14a7cc4e734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_63
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a940d2d8e16ad6b42bd41353a608a9f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_64
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a184a29fae3944fa396667660c04d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_65
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f895095710742234f87cfbbf3ae77e4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_66
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03cb5d85de6920448e6fa6255a31dbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_67
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972cdc63393c13e42a5e1a5c15cc2a50
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_68
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36c13584f472234cb1ba82af281b7c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_69
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8101234d3968b498862976bf348088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_70
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0354f2344e850f24cae2aac01aea1d4d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_71
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3577cd12324cea74da1f1ca0a63056fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_72
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c8405429c918f478870ebd257852f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_73
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195429e5d8bda0547acc3bd02cc4c532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_74
+      rect:
+        serializedVersion: 2
+        x: 12580
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29329baa459fb254c90e076cad270382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_75
+      rect:
+        serializedVersion: 2
+        x: 13320
+        y: 2775
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdf6ef99905fa845aada53104ec4201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36fc85fff6ccf14d8cc90c784b63ec0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_77
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdbd1aaa78bae694689a90c6cc1a0fc1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_78
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d4ced2325d9b541821e2ed674fcd66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_79
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d662662c9342aa94c8880164bf185bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_80
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4d7c78c5dc10148949cba22eddd586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_81
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aae2e2a19f60b242a23e1db6d961bc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_82
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7b24da1df558443baf71ffc40f4927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_83
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b2022171b4b0f488ddba2bf4e13234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_84
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f729d5f9c35d67246b55e31258a35013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_85
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72faa54b3c9e81643b19fb47d032c1d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_86
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43241fad30dbd248a899fd942692863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_87
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0818edcc5aa96459b1d05e0ca06b17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_88
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19031a3b0862a41409cc973b3cbdce3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_89
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33fd4d69dbe1c2f408d3297a151e525b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_90
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ec12b9c84284440832191b2def1b5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_91
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323669f9ff3bad248975caab38dbc3e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_92
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 2225
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a20a3a8ba15388459b652860b83a7de
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb609ce240873f443b9b807c035affb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_94
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a8a6496f09fe847b03626507280654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_95
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c93406ba2070244aa03ee60b8f26e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_96
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce823cc11aa978a4ab3689a38172df42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_97
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc85b064c7d69d4ea1a8357a423773f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_98
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dab8510d94886774fa5740b03ca67312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_99
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f814a648d6a177d4e9acb368ef2681c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_100
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff0d7dfc9bb55047be03d3110dba2dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_101
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd2bbad488be154a9e0d52718eff74f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_102
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3a6757e97f74b9448f7974c0dc03238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_103
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702ff4fad342e7840859ce9e64248426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_104
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97992f63cb2926e4d94a358f6d5801ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_105
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89d909d4968cbd45922cc461ff834b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_106
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a3d6116c44e69c42a93d4c240f04a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_107
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a36389041f451541861d441d8ec9015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_108
+      rect:
+        serializedVersion: 2
+        x: 11100
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b80c49d8c9d9774c87bddd4f31c1d8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_109
+      rect:
+        serializedVersion: 2
+        x: 11840
+        y: 1675
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dba48ca3cbf3e43a3b19755eba9517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b129abfd65bc9384cbc19d81fa188fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_111
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad67464bcb6a9d48b9fbd4786972bc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_112
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e234e73327268c4aa7d3790b8ce37fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_113
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97fe8f18cad2e48bd996755642f962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_114
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3e3946b4287f64384cde30b234249e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_115
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7324349c1f0fc5041bf506dd2c97fea4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_116
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7174043e83895b54babddff6f3c4769d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_117
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c35428649489a45bca2d106bcfc880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_118
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 226264913c80da2488733b6c7db182e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_119
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47fdc2e5ee5588f4db1aceb005e882b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_120
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374636d16b18ce84c88b61d316c40b7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_121
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94b34f98e55ca94a80d0cbdede51364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_122
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f676a4ba4ccb0984ba9a6f6efc4a7d03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_123
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93817700eba79004fb23ee7ad6f703b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_124
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 1125
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68bca4e99685b014495f6b8d6e568f45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f4f1046cac42fd478607626be58bbea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_126
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e968ddcef09eac4da1453753ef43631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_127
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c80b3e12ae6ec04fa58a53d11a4bf57
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_128
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9779ad58c9b6c43ab2bf8577bd3932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_129
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace3c3a09f33df841a9a8a1651ce6453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_130
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be10d3f32f7eecb4bab099b3288975fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_131
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e846adb01fdd2684992e0abd84f43e22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_132
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd43b0eb9cf9cd941821bac1398edd3b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_133
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd1f11f9ae061c2468961de2673be273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_134
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd413542f61a9842a3ffaf970527d2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_135
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2120fc161ec651947a3f1f3125a42246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_136
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 902fef99b07a52e42b3212b85132e1a1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_137
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67d70fafd9fef4458ceb9dfd39ccaf4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_138
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964b985883f08cb48bf8183656d57fc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_139
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 575
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26b626c06641e147a7bcd4b7b6f61cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6be8aca09eb9914d93978719247a64d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_141
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b519bcff3cc1f042b7558a0606e71c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_142
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe8a024e065e0642a813ca42e60b18e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_143
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fc002a0e1cd107429f4850d134a6e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_144
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c159d1b9bf104d4790180ae8887a22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_145
+      rect:
+        serializedVersion: 2
+        x: 3700
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d459a263c9d2979498725b4432ac5140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_146
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db839fc2634bd8747a38a813bb6c65fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_147
+      rect:
+        serializedVersion: 2
+        x: 5180
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54f1661c2c3f69418c5ca413718e388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_148
+      rect:
+        serializedVersion: 2
+        x: 5920
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dccf8e333ff09428bf2b75d83d8d84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_149
+      rect:
+        serializedVersion: 2
+        x: 6660
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0409b2d8ab5fd743836435e4f0698fb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_150
+      rect:
+        serializedVersion: 2
+        x: 7400
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb652b216cd82d548953fe1578bec3a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_151
+      rect:
+        serializedVersion: 2
+        x: 8140
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aade8c4420af656498dbd15fc8411ec2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_152
+      rect:
+        serializedVersion: 2
+        x: 8880
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0583442c1ca012a4fbe1d234c3c208c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_153
+      rect:
+        serializedVersion: 2
+        x: 9620
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f787d1925b2324b468785c2fe1072bd7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Black_Roomba_Sprite_154
+      rect:
+        serializedVersion: 2
+        x: 10360
+        y: 25
+        width: 740
+        height: 550
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167eac7a68db0a04b8fe4ee84cc908ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 9c805e6aaccd1bb428c6a5c098b1b983
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
