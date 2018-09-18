@@ -20,13 +20,13 @@ public class ButtonManager : MonoBehaviour
 
     private LevelManager lMan;
     private int roombaCounter = 0;
+    private bool isGo = false;
 
     void OnEnable( )
     {
         lMan = FindObjectOfType<LevelManager>( );
-        //ResetButton.SetActive( false );
-        //GoButton.SetActive( true );
         roombaCounter = 0;
+        isGo = false;
         for( int i = 0; i < 4; i++ )
         {
             Arrows[i].arrow.OnInit( Arrows[i].numberOfArrows );
@@ -41,32 +41,41 @@ public class ButtonManager : MonoBehaviour
 
     public void OnGoButton( )
     {
+        if( isGo )
+            return;
+        isGo = true;
+        for( int i = 0; i < Arrows.Length; i++ )
+        {
+            Arrows[i].arrow.hasStarted = true;
+        }
         for( int i = 0; i < gonzoMovement.Length; i++ )
         {
             gonzoMovement[i].OnStart( );
         }
-        //GoButton.SetActive( false );
-        //ResetButton.SetActive( true );
     }
 
-    public void OnResetButton() {
-        for (int i = 0; i < Arrows.Length; i++) {
-            Arrows[i].arrow.Reset();
+    public void OnResetButton( )
+    {
+        for( int i = 0; i < Arrows.Length; i++ )
+        {
+            Arrows[i].arrow.Reset( );
         }
 
-        for (int i = 0; i < gonzoMovement.Length; i++) {
-            gonzoMovement[i].Reset();
+        for( int i = 0; i < gonzoMovement.Length; i++ )
+        {
+            gonzoMovement[i].Reset( );
         }
 
-        if (OilsGameObject != null || OilsGameObject.Length != 0){
-            foreach (var go in OilsGameObject) {
-                go.SetActive(true);
-
+        if( OilsGameObject != null || OilsGameObject.Length != 0 )
+        {
+            foreach( var go in OilsGameObject )
+            {
+                go.SetActive( true );
             }
-    }
+        }
 
-        //ResetButton.SetActive( false );
-        //GoButton.SetActive( true );
+        roombaCounter = 0;
+        isGo = false;
     }
 
     public void OnEnterGoal( )

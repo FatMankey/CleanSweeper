@@ -1,0 +1,3731 @@
+fileFormatVersion: 2
+guid: 1825a50a80691ef47901d5c4ced9cadb
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: GreenBoi_0
+    21300002: GreenBoi_1
+    21300004: GreenBoi_2
+    21300006: GreenBoi_3
+    21300008: GreenBoi_4
+    21300010: GreenBoi_5
+    21300012: GreenBoi_6
+    21300014: GreenBoi_7
+    21300016: GreenBoi_8
+    21300018: GreenBoi_9
+    21300020: GreenBoi_10
+    21300022: GreenBoi_11
+    21300024: GreenBoi_12
+    21300026: GreenBoi_13
+    21300028: GreenBoi_14
+    21300030: GreenBoi_15
+    21300032: GreenBoi_16
+    21300034: GreenBoi_17
+    21300036: GreenBoi_18
+    21300038: GreenBoi_19
+    21300040: GreenBoi_20
+    21300042: GreenBoi_21
+    21300044: GreenBoi_22
+    21300046: GreenBoi_23
+    21300048: GreenBoi_24
+    21300050: GreenBoi_25
+    21300052: GreenBoi_26
+    21300054: GreenBoi_27
+    21300056: GreenBoi_28
+    21300058: GreenBoi_29
+    21300060: GreenBoi_30
+    21300062: GreenBoi_31
+    21300064: GreenBoi_32
+    21300066: GreenBoi_33
+    21300068: GreenBoi_34
+    21300070: GreenBoi_35
+    21300072: GreenBoi_36
+    21300074: GreenBoi_37
+    21300076: GreenBoi_38
+    21300078: GreenBoi_39
+    21300080: GreenBoi_40
+    21300082: GreenBoi_41
+    21300084: GreenBoi_42
+    21300086: GreenBoi_43
+    21300088: GreenBoi_44
+    21300090: GreenBoi_45
+    21300092: GreenBoi_46
+    21300094: GreenBoi_47
+    21300096: GreenBoi_48
+    21300098: GreenBoi_49
+    21300100: GreenBoi_50
+    21300102: GreenBoi_51
+    21300104: GreenBoi_52
+    21300106: GreenBoi_53
+    21300108: GreenBoi_54
+    21300110: GreenBoi_55
+    21300112: GreenBoi_56
+    21300114: GreenBoi_57
+    21300116: GreenBoi_58
+    21300118: GreenBoi_59
+    21300120: GreenBoi_60
+    21300122: GreenBoi_61
+    21300124: GreenBoi_62
+    21300126: GreenBoi_63
+    21300128: GreenBoi_64
+    21300130: GreenBoi_65
+    21300132: GreenBoi_66
+    21300134: GreenBoi_67
+    21300136: GreenBoi_68
+    21300138: GreenBoi_69
+    21300140: GreenBoi_70
+    21300142: GreenBoi_71
+    21300144: GreenBoi_72
+    21300146: GreenBoi_73
+    21300148: GreenBoi_74
+    21300150: GreenBoi_75
+    21300152: GreenBoi_76
+    21300154: GreenBoi_77
+    21300156: GreenBoi_78
+    21300158: GreenBoi_79
+    21300160: GreenBoi_80
+    21300162: GreenBoi_81
+    21300164: GreenBoi_82
+    21300166: GreenBoi_83
+    21300168: GreenBoi_84
+    21300170: GreenBoi_85
+    21300172: GreenBoi_86
+    21300174: GreenBoi_87
+    21300176: GreenBoi_88
+    21300178: GreenBoi_89
+    21300180: GreenBoi_90
+    21300182: GreenBoi_91
+    21300184: GreenBoi_92
+    21300186: GreenBoi_93
+    21300188: GreenBoi_94
+    21300190: GreenBoi_95
+    21300192: GreenBoi_96
+    21300194: GreenBoi_97
+    21300196: GreenBoi_98
+    21300198: GreenBoi_99
+    21300200: GreenBoi_100
+    21300202: GreenBoi_101
+    21300204: GreenBoi_102
+    21300206: GreenBoi_103
+    21300208: GreenBoi_104
+    21300210: GreenBoi_105
+    21300212: GreenBoi_106
+    21300214: GreenBoi_107
+    21300216: GreenBoi_108
+    21300218: GreenBoi_109
+    21300220: GreenBoi_110
+    21300222: GreenBoi_111
+    21300224: GreenBoi_112
+    21300226: GreenBoi_113
+    21300228: GreenBoi_114
+    21300230: GreenBoi_115
+    21300232: GreenBoi_116
+    21300234: GreenBoi_117
+    21300236: GreenBoi_118
+    21300238: GreenBoi_119
+    21300240: GreenBoi_120
+    21300242: GreenBoi_121
+    21300244: GreenBoi_122
+    21300246: GreenBoi_123
+    21300248: GreenBoi_124
+    21300250: GreenBoi_125
+    21300252: GreenBoi_126
+    21300254: GreenBoi_127
+    21300256: GreenBoi_128
+    21300258: GreenBoi_129
+    21300260: GreenBoi_130
+    21300262: GreenBoi_131
+    21300264: GreenBoi_132
+    21300266: GreenBoi_133
+    21300268: GreenBoi_134
+    21300270: GreenBoi_135
+    21300272: GreenBoi_136
+    21300274: GreenBoi_137
+    21300276: GreenBoi_138
+    21300278: GreenBoi_139
+    21300280: GreenBoi_140
+    21300282: GreenBoi_141
+    21300284: GreenBoi_142
+    21300286: GreenBoi_143
+    21300288: GreenBoi_144
+    21300290: GreenBoi_145
+    21300292: GreenBoi_146
+    21300294: GreenBoi_147
+    21300296: GreenBoi_148
+    21300298: GreenBoi_149
+    21300300: GreenBoi_150
+    21300302: GreenBoi_151
+    21300304: GreenBoi_152
+    21300306: GreenBoi_153
+    21300308: GreenBoi_154
+    21300310: GreenBoi_155
+    21300312: GreenBoi_156
+    21300314: GreenBoi_157
+    21300316: GreenBoi_158
+    21300318: GreenBoi_159
+    21300320: GreenBoi_160
+    21300322: GreenBoi_161
+    21300324: GreenBoi_162
+    21300326: GreenBoi_163
+    21300328: GreenBoi_164
+    21300330: GreenBoi_165
+    21300332: GreenBoi_166
+    21300334: GreenBoi_167
+    21300336: GreenBoi_168
+    21300338: GreenBoi_169
+    21300340: GreenBoi_170
+    21300342: GreenBoi_171
+  externalObjects: {}
+  serializedVersion: 6
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GreenBoi_0
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3713
+        width: 374
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8dbbde04f81f634bb900a5361a53710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_1
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 3713
+        width: 371
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9c062e177c524458883672feb2586d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_2
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3713
+        width: 374
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3536e125b80b71942bba7068df7d1b3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_3
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f326f4fe6d5d4784fa50423f702bd70f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_4
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4e69acc6e9a01479fd08b55b844c5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_5
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3855ddf9f094844b03a8d7e3a5e81f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_6
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 3713
+        width: 372
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25edffcc1c5c8934988cfc5ead850acf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_7
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 745ac213b7e6872469ed388700924c80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_8
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94196eac23f52bc40a87bd96e37d1b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_9
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af17de081e112bb429cf64915d53c235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_10
+      rect:
+        serializedVersion: 2
+        x: 4921
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92048576e8538544ca208f6d13fd68ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_11
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 3713
+        width: 371
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2fecd6060553e8428f8b24d07879c0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_12
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 3713
+        width: 374
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626efdb85184ce34f8b3a4a14f5fa896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_13
+      rect:
+        serializedVersion: 2
+        x: 6369
+        y: 3713
+        width: 372
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb6db99334c9a447b265247bd41b7f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_14
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 3713
+        width: 373
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d89ef255a783884c877874dabc5806b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_15
+      rect:
+        serializedVersion: 2
+        x: 7334
+        y: 3713
+        width: 372
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8defaec043cdd82488ea10e90ca0747b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_16
+      rect:
+        serializedVersion: 2
+        x: 7815
+        y: 3713
+        width: 374
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd62d38466bcc3e43930f0266ffa6241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_17
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 3713
+        width: 373
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529671a4031084943a86c27bb05fb8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_18
+      rect:
+        serializedVersion: 2
+        x: 8782
+        y: 3713
+        width: 372
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f17070134752854bbb56aec7a29dce5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_19
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3306
+        width: 374
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86dde75f8c88a544bcce48b3b56bb79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 3306
+        width: 374
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a05375a6cca4ba649b3f56096a832d80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_21
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3306
+        width: 374
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840df7cad98c68c4db4723d94dc9fef6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_22
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 3306
+        width: 376
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d743238f677c61340906a648b902c44b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_23
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 3306
+        width: 374
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10afbf9cb42070d42b5472b3b705ca70
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_24
+      rect:
+        serializedVersion: 2
+        x: 2507
+        y: 3306
+        width: 376
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e614aac913b65e74593542aaaf224034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_25
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 3306
+        width: 372
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc712adcea0d4f47a78bed83c70b0b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_26
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 3306
+        width: 374
+        height: 261
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc170eef17653144a3d1a3296d9a993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_27
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 3306
+        width: 374
+        height: 261
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a09bd00cda8924c9c3bfd636b423d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_28
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 3321
+        width: 374
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462bdd2b1480d8d4496a7dc4cd0ce93c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_29
+      rect:
+        serializedVersion: 2
+        x: 4921
+        y: 3328
+        width: 372
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba2a404c5673ea1459b93103458a2fed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_30
+      rect:
+        serializedVersion: 2
+        x: 5405
+        y: 3306
+        width: 371
+        height: 176
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d19c638f18246a74d87c7501e5ad5936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_31
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 3306
+        width: 372
+        height: 248
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 861f34ac980b52e4e9fb5a0ab769195b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_32
+      rect:
+        serializedVersion: 2
+        x: 6369
+        y: 3306
+        width: 372
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218145c32247bc449a789905520717f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_33
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 3306
+        width: 373
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9235cb3bb0ca847b2be28518c3d824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_34
+      rect:
+        serializedVersion: 2
+        x: 7334
+        y: 3306
+        width: 374
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54d53bcccb98f64588442c9ed8d9da3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_35
+      rect:
+        serializedVersion: 2
+        x: 7815
+        y: 3306
+        width: 374
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6055404e56b2d746a50c31db2b0375a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_36
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 3306
+        width: 373
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e775a08284e80947b0ae895ae1eab22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_37
+      rect:
+        serializedVersion: 2
+        x: 8782
+        y: 3306
+        width: 372
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 214da94efde62104596f29f33bd9c444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2898
+        width: 374
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5083b518b685e9b479835bef10f9a384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_39
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 2898
+        width: 373
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede3f620a646e87468549ff8f3c9bd33
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_40
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 2898
+        width: 376
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07701f5d8c3f16747af99d4a95dc7742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_41
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 2898
+        width: 374
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20a21bf18b84c9459fa6799c358ba0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_42
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 2898
+        width: 373
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6095b63672e294aad62f8dd413c36c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_43
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 2898
+        width: 376
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36652368c6e8694aa8b68272a044b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_44
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 2898
+        width: 372
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8a4330b25b91c4382f4e8230556bbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_45
+      rect:
+        serializedVersion: 2
+        x: 3473
+        y: 2898
+        width: 372
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae95dfdc27d09342a9fec30f6e4dd52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_46
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 2898
+        width: 371
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0166280f5574246b6b5dddb4e73fc7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_47
+      rect:
+        serializedVersion: 2
+        x: 4438
+        y: 2898
+        width: 374
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ccee874e10e8b4696061b51f040506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_48
+      rect:
+        serializedVersion: 2
+        x: 4921
+        y: 2898
+        width: 374
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 510770ccf7c74154c9a00bacfe3f97e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_49
+      rect:
+        serializedVersion: 2
+        x: 5403
+        y: 2898
+        width: 373
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb41f5a1b3f8d2640b8b24c8b2b3f2c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_50
+      rect:
+        serializedVersion: 2
+        x: 5886
+        y: 2898
+        width: 374
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e966a6b19fa85364ab5b6e9d7a854a4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_51
+      rect:
+        serializedVersion: 2
+        x: 6367
+        y: 2898
+        width: 374
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d106034fb983c0d42a2e4dc0ecdf93ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_52
+      rect:
+        serializedVersion: 2
+        x: 6851
+        y: 2898
+        width: 373
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65bc9f34886292a4799dc1b1fa19e0a2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_53
+      rect:
+        serializedVersion: 2
+        x: 7334
+        y: 2898
+        width: 374
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86416b3741403ff47857522fe3f9db0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_54
+      rect:
+        serializedVersion: 2
+        x: 7815
+        y: 2898
+        width: 374
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83fcdd20ff04a64ab776db276ab9b88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_55
+      rect:
+        serializedVersion: 2
+        x: 8299
+        y: 2898
+        width: 369
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b19aa75e930f94e811c511ff8fc8c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_56
+      rect:
+        serializedVersion: 2
+        x: 8782
+        y: 2898
+        width: 372
+        height: 280
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81592c31369b32b47aedd4483604f0b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_57
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2493
+        width: 282
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 798806d4e4bc1a44e94fd85811839bd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_58
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 2493
+        width: 282
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5cb17baa396264fafaf4292a012ef4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_59
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2493
+        width: 284
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1443ebdd871c1c849b3d531ea915111c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_60
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 2493
+        width: 282
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e0ade0559f526545b33de61bd4807bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_61
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 2493
+        width: 284
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8236d2ad89a09448460642f7c655b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_62
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2493
+        width: 282
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b65bc40810d790d4ebe456a8e7a0bbbf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_63
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 2493
+        width: 284
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f4decccdf6b60489a47d437189cff6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_64
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2493
+        width: 282
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf6bec512c417049accf731b3e9992c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_65
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 2493
+        width: 282
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac301c7443dacd24c872744077a9fae9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_66
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 2493
+        width: 284
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f43e496573e03d4891424c877af6387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_67
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 2493
+        width: 282
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1197199fbc4a8947b2291eb03203e6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_68
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 2493
+        width: 284
+        height: 255
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9334b1c5e60762945b3ebe9ebb3da79c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_69
+      rect:
+        serializedVersion: 2
+        x: 5897
+        y: 2493
+        width: 282
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b54192204b59b4988fa24c08679335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_70
+      rect:
+        serializedVersion: 2
+        x: 6378
+        y: 2493
+        width: 285
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ed31ae98cbe7e04095da9ec60a59ecb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_71
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 2493
+        width: 282
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65acaa6e1c91e64409343733bbe2588f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_72
+      rect:
+        serializedVersion: 2
+        x: 7345
+        y: 2493
+        width: 282
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78a808489b6c374baecf11e62fe0e86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_73
+      rect:
+        serializedVersion: 2
+        x: 7826
+        y: 2493
+        width: 285
+        height: 260
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5bce491c6f1eb5438d2467adb303313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_74
+      rect:
+        serializedVersion: 2
+        x: 8310
+        y: 2493
+        width: 282
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d81be0de2393146bc841b65bfa123f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_75
+      rect:
+        serializedVersion: 2
+        x: 8791
+        y: 2493
+        width: 284
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0358b632baa9224195e62963fe08b36
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_76
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 2086
+        width: 282
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d59ed6656a0374f9c09506c0192d32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_77
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 2086
+        width: 282
+        height: 251
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878073c094ee79942bad4bc280e80e3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_78
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 2086
+        width: 282
+        height: 244
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a7e5eb11f6fb6438e8294c003b1b04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_79
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 2086
+        width: 284
+        height: 237
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c093eda63abc34d9dda873abedf8ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_80
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 2086
+        width: 282
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb1036530e7fda438a694430785b850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_81
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 2086
+        width: 282
+        height: 224
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb89c800c4ba73d4e860bc763e7bd818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_82
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 2086
+        width: 284
+        height: 217
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8812ec6605961d5499cdf625307b4cca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_83
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 2093
+        width: 282
+        height: 232
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2f104c86d025c4bb7e8830fb4865bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_84
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 2099
+        width: 282
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b92908b851b7c4c9864d5ad4f5e09f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_85
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 2106
+        width: 284
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a080c2c4ec6a62c4d914767453016182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_86
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 2097
+        width: 282
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8fac5e312c1ab1409dbddc099e786ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_87
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 2086
+        width: 288
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d10b58a0a864b43848b0adb0e3a429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_88
+      rect:
+        serializedVersion: 2
+        x: 5902
+        y: 2086
+        width: 277
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840d79312cab0bd4594898be20d4060d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_89
+      rect:
+        serializedVersion: 2
+        x: 6378
+        y: 2086
+        width: 285
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f60946ff92e4a54787c32c2bdb03bc4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_90
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 2086
+        width: 282
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dffb38b8fc237d4b8f8292bb7bd3b18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_91
+      rect:
+        serializedVersion: 2
+        x: 7345
+        y: 2086
+        width: 282
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ed2cc6cbeac5c47bd490589a186eba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_92
+      rect:
+        serializedVersion: 2
+        x: 7826
+        y: 2086
+        width: 285
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea978000f885b64086ba14ff6c3ac2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_93
+      rect:
+        serializedVersion: 2
+        x: 8310
+        y: 2086
+        width: 282
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55df6806c3e489247837186be038fd63
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_94
+      rect:
+        serializedVersion: 2
+        x: 8791
+        y: 2086
+        width: 284
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0c5848b1066c947beb9a652f69adad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_95
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1679
+        width: 282
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4187c83c4bfbee4a9bb056b5b764a46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_96
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1679
+        width: 282
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6888274c85ed8458e1d0077bdcd962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_97
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1679
+        width: 284
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2010fb2ed87704d46ba39c9b84e347a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_98
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1679
+        width: 282
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301d71e0dd11e5243aa0489eabd76b2a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_99
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 1676
+        width: 284
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1beafdab120a9d14f9116ec752d9dd9b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_100
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 1679
+        width: 282
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fb8924173c2b841b0b22c4694d521e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_101
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1679
+        width: 284
+        height: 261
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c768be826d77d4abbb60a032dfca92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_102
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 1679
+        width: 284
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bdbdf50f39fb2e4db055e0ede4ba9bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_103
+      rect:
+        serializedVersion: 2
+        x: 3968
+        y: 1679
+        width: 282
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853d98a884d1f814d81081656d89e6ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_104
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 1679
+        width: 284
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf846267aac812442bb453e155f9c61c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_105
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 1679
+        width: 282
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb225c3ed563a0843940e403296dc1a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_106
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 1676
+        width: 284
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ab61fa4a93e0942a958b3e1eb74d3e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_107
+      rect:
+        serializedVersion: 2
+        x: 5897
+        y: 1676
+        width: 282
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 629c7345eaf19ae409fe7218d19a9429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_108
+      rect:
+        serializedVersion: 2
+        x: 6378
+        y: 1679
+        width: 285
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e47b4a009005f4aad2e2d25c8c52b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_109
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 1679
+        width: 284
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41cffeacbee23424c8dee97be2abab35
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_110
+      rect:
+        serializedVersion: 2
+        x: 7345
+        y: 1681
+        width: 282
+        height: 257
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1768529c3ede304db13c941a7fe5a06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_111
+      rect:
+        serializedVersion: 2
+        x: 7826
+        y: 1681
+        width: 285
+        height: 259
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7879678427e2bb4795db5e9fa333f4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_112
+      rect:
+        serializedVersion: 2
+        x: 8310
+        y: 1681
+        width: 282
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37687f74231be2e479f024b80b876947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_113
+      rect:
+        serializedVersion: 2
+        x: 8791
+        y: 1679
+        width: 284
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdf3f93ae5d4a84e85376539e096f1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_114
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1273
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80a051cdcc55fa43b2343f5d13377a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_115
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1273
+        width: 282
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3af7d5f38537b488ffc0d38c99d846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_116
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1273
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0ff617d57f30a3409b08085e53291cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_117
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 1273
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b36f1ea0e935bb7468f3271f07bd48c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_118
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1273
+        width: 285
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0626baa5ed5c8e4289983648741d369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_119
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 1273
+        width: 284
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e58bda60b761034daeab5586ebd43df
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_120
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 1273
+        width: 282
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ee0294800fc694ea5ae071cd19437f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_121
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 1273
+        width: 285
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d1c702b9880714c9cb64bab2d365f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_122
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 1273
+        width: 282
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11467b10180311e4d80762813f23178b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_123
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 1273
+        width: 284
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9810e8dc296ac6479d8282e6b67d046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_124
+      rect:
+        serializedVersion: 2
+        x: 4930
+        y: 1273
+        width: 285
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c39ad33b210c2149973b3bdd67c9b44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_125
+      rect:
+        serializedVersion: 2
+        x: 5414
+        y: 1273
+        width: 282
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e9252fb0a7ba34ab61c862d63e02d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_126
+      rect:
+        serializedVersion: 2
+        x: 5895
+        y: 1273
+        width: 284
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529258a95f7235c488a18cf2aacae2e6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_127
+      rect:
+        serializedVersion: 2
+        x: 6378
+        y: 1273
+        width: 282
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e5b958a7bb5754da38d5a8c2f76b79
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_128
+      rect:
+        serializedVersion: 2
+        x: 6860
+        y: 1273
+        width: 284
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15aa5f8245d4ddd4ebfef2fb2a8139f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_129
+      rect:
+        serializedVersion: 2
+        x: 7343
+        y: 1273
+        width: 284
+        height: 276
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f543b1f00c0464d8fbb2c86d38d5d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_130
+      rect:
+        serializedVersion: 2
+        x: 7824
+        y: 1273
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1722471a6d01944bd67a9d3f312ffa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_131
+      rect:
+        serializedVersion: 2
+        x: 8308
+        y: 1273
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3800416cf249564baa39cee6db1edad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_132
+      rect:
+        serializedVersion: 2
+        x: 8791
+        y: 1273
+        width: 282
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90b741abddbf7947bac27dba2912be8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_133
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 866
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3baea9ad62f92142885db586559a71c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_134
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 866
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0341584cef5dc2941ba34f60a2019523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_135
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 866
+        width: 282
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0751b09aca60f1a47a4b74c145522306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_136
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 866
+        width: 282
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 427d7fa031cfac848a8e1d214887a805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_137
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 866
+        width: 282
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d676cf494b97eb458ca4f90553177dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_138
+      rect:
+        serializedVersion: 2
+        x: 2518
+        y: 866
+        width: 282
+        height: 264
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f7308704fdef642aa21c25bdeb016c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_139
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 866
+        width: 284
+        height: 262
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a65bf6fe2d317b44991f09cb6713c0af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_140
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 866
+        width: 285
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b513487ce3fda15439b72edd82500465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_141
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 875
+        width: 282
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ff6af7eceee60847be3f1dcf5797fef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_142
+      rect:
+        serializedVersion: 2
+        x: 4447
+        y: 884
+        width: 284
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92d22bee842dd8479d42f268ccc9192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_143
+      rect:
+        serializedVersion: 2
+        x: 4930
+        y: 875
+        width: 282
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c2d0e54b2eda34fadea84dbd611b2c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_144
+      rect:
+        serializedVersion: 2
+        x: 5412
+        y: 866
+        width: 284
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef068ae96d40284e8df873b030f40a8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_145
+      rect:
+        serializedVersion: 2
+        x: 5895
+        y: 866
+        width: 284
+        height: 253
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bfcf9d857724b4d9a6e703dcbca832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_146
+      rect:
+        serializedVersion: 2
+        x: 6376
+        y: 866
+        width: 284
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3bc9b9277909849a19e61bb61ce4fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_147
+      rect:
+        serializedVersion: 2
+        x: 6860
+        y: 866
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2833cba37987d2469b72788d0150ebf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_148
+      rect:
+        serializedVersion: 2
+        x: 7341
+        y: 866
+        width: 284
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab748b58c93931f40924b71120639bb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_149
+      rect:
+        serializedVersion: 2
+        x: 7824
+        y: 866
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41eada1b3d3bb5249b14e3941087530e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_150
+      rect:
+        serializedVersion: 2
+        x: 8305
+        y: 866
+        width: 285
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52ae7ea2f51ba4459ba642fe0be4975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_151
+      rect:
+        serializedVersion: 2
+        x: 8789
+        y: 866
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8003b53edecb474ca2137454c602baf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_152
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 459
+        width: 282
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70408e5c612a52145b36255ab97926e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_153
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 459
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0aed940f48af5042880750a743600a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_154
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 459
+        width: 284
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b64001e2cfda04ba4219b305d7a1fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_155
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 459
+        width: 284
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2832025fb46efa448a8b8fa407bbd348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_156
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 459
+        width: 282
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad95f910b0f740a498280142e1f1309c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_157
+      rect:
+        serializedVersion: 2
+        x: 2520
+        y: 459
+        width: 282
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3dcc7787fc53f4690e1cca3bedaab5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_158
+      rect:
+        serializedVersion: 2
+        x: 3001
+        y: 457
+        width: 284
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b998f7c1a342d499bfdc16a78d9b6f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_159
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 457
+        width: 282
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fb19bbe5a0a5514f972c3a35a7769f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_160
+      rect:
+        serializedVersion: 2
+        x: 3966
+        y: 457
+        width: 284
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1d061da75b53a49aa0ef42281fd15b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_161
+      rect:
+        serializedVersion: 2
+        x: 4449
+        y: 459
+        width: 284
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12025bffc6ddfe348b218e9ba5e001ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_162
+      rect:
+        serializedVersion: 2
+        x: 4933
+        y: 459
+        width: 282
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e87522ec7a137640b191a4fe90416f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_163
+      rect:
+        serializedVersion: 2
+        x: 5416
+        y: 459
+        width: 282
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0550cb9d26d88cc459f9bb052803c25a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_164
+      rect:
+        serializedVersion: 2
+        x: 5897
+        y: 459
+        width: 284
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79807ea80b38af42bdd9d0718c3b6da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_165
+      rect:
+        serializedVersion: 2
+        x: 6378
+        y: 459
+        width: 285
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4d058debbf16f4493177d8d0c838bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_166
+      rect:
+        serializedVersion: 2
+        x: 6862
+        y: 457
+        width: 282
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a296571b3367d2241b5d1eb684e5da31
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_167
+      rect:
+        serializedVersion: 2
+        x: 7343
+        y: 457
+        width: 284
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4856eb11bda694fb36f4d6e1f074e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_168
+      rect:
+        serializedVersion: 2
+        x: 7826
+        y: 454
+        width: 285
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adfa76a8c664fff49b0e9c22aa6147dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_169
+      rect:
+        serializedVersion: 2
+        x: 8310
+        y: 454
+        width: 284
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88989f453605b404da6ec7332598a490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_170
+      rect:
+        serializedVersion: 2
+        x: 8791
+        y: 457
+        width: 284
+        height: 277
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa294a61c3a6f1e40841019d40ed6d19
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GreenBoi_171
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 18
+        width: 365
+        height: 304
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3a1f3625ef8ea4ba2272b07b9684e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5ee52cf899cdb0943895b3487c55cbc7
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -18,7 +18,8 @@ public class Arrow : MonoBehaviour
     public Sprite[] ArrowSprites;
     public int numberOfArrows = 5;
     public bool isOutOfArrows = false;
-    
+    public bool hasStarted = false;
+
     private List<GameObject> myTiles;
     private GameObject tile;
     private Vector3 mousePos;
@@ -28,6 +29,7 @@ public class Arrow : MonoBehaviour
     {
         myTiles = new List<GameObject>( );
         tile = null;
+        hasStarted = false;
         numberOfArrows = num;
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
@@ -41,14 +43,14 @@ public class Arrow : MonoBehaviour
 
     public void OnBeginDrag( )
     {
-        if( isOutOfArrows )
+        if( isOutOfArrows || hasStarted )
             return;
         tile = (GameObject)Instantiate( tileBehaviour.gameObject, transform.position, Quaternion.identity );
     }
 
     public void OnDrag( )
     {
-        if( isOutOfArrows )
+        if( isOutOfArrows || hasStarted )
             return;
         mousePos = Camera.main.ScreenToWorldPoint( Input.mousePosition );
         mousePos.z = 0;
@@ -57,7 +59,7 @@ public class Arrow : MonoBehaviour
 
     public void OnEndDrag( )
     {
-        if( isOutOfArrows )
+        if( isOutOfArrows || hasStarted )
             return;
         PlaceTile( mousePos );
         if( tile != null )
@@ -66,7 +68,6 @@ public class Arrow : MonoBehaviour
 
     void PlaceTile( Vector3 pos )
     {
-
         RaycastHit hit; 
         Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition ); 
         if( Physics.Raycast( ray, out hit ) )
@@ -96,6 +97,7 @@ public class Arrow : MonoBehaviour
         NumberImage.sprite = NumberSprites[_numberOfArrows];
         ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
         tile = null;
+        hasStarted = false;
 
         if( myTiles.Count > 0 )
         {
