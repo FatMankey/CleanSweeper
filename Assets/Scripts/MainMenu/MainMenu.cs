@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
@@ -11,6 +12,8 @@ public class MainMenu : MonoBehaviour
     public Dropdown resolutionDropdown;
     public GameObject OptionQuitMenuUI;
     private Resolution[] resolutions;
+    public GameObject GoodbyeScreen;
+    public GameObject AltScreentodeactivateGameObject;
 
     private void Start()
     {
@@ -53,6 +56,19 @@ public class MainMenu : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void AltQuiteGame()
+    {
+        StartCoroutine(StartBye());
+        Application.Quit();
+    }
+
+    private IEnumerator StartBye()
+    {
+        AltScreentodeactivateGameObject.SetActive(false);
+        GoodbyeScreen.SetActive(true);
+        yield return new WaitForSeconds(3);
     }
 
     public void SetResolution(int num)

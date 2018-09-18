@@ -9,7 +9,7 @@ public class Oil : MonoBehaviour
 
     public Text ScoreBanner;
     public int ValueOfOil = 0;
-    public int CurrentScore = 0;
+    public static int CurrentScore = 0;
 
     private void Update()
     {
@@ -24,6 +24,11 @@ public class Oil : MonoBehaviour
         if (!other.CompareTag("Oil")) return;
         print("we got hit");
         StartCoroutine(DestroyOil(other.gameObject));
+    }
+
+    private void Start()
+    {
+        CurrentScore = 0;
     }
 
     private void ScoreUpdate(int newvalue)
