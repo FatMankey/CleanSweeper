@@ -29,6 +29,47 @@ public class LevelManager : MonoBehaviour
         }
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            ManualBackLevel();
+        }
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            ForwardLevel();
+        }
+    }
+
+    private void ManualBackLevel()
+    {
+        LoadingFrame.SetActive(true);
+
+        if (_currentTempLevel != null)
+        {
+            Destroy(_currentTempLevel);
+        }
+        LoadingFrame.SetActive(false);
+        _currentTempLevel = Instantiate(Levels[currentLevelCounter]);
+        currentLevelCounter = currentLevelCounter < Levels.Length - 1 ? currentLevelCounter + 1 : 0;
+        load(currentLevelCounter.ToString());
+    }
+
+    private void ForwardLevel()
+    {
+        LoadingFrame.SetActive(true);
+
+        if (_currentTempLevel != null)
+        {
+            Destroy(_currentTempLevel);
+        }
+        LoadingFrame.SetActive(false);
+        _currentTempLevel = Instantiate(Levels[currentLevelCounter]);
+        currentLevelCounter = currentLevelCounter > 0 ? currentLevelCounter - 1 : 0;
+        load(currentLevelCounter.ToString());
+    }
+
     private void Start()
     {
         OnNextLevel();

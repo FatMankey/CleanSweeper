@@ -286,7 +286,7 @@ MonoBehaviour:
   - {fileID: 1040104472443972, guid: 01f91fb20ae59ed4ca9941652438131e, type: 2}
   - {fileID: 1549436604457658, guid: 4218a6b23a74d66468d1fdb21a90da3b, type: 2}
   - {fileID: 1713735429571794, guid: 39cf6605318cb5646a8b93ae96f91eea, type: 2}
-  currentLevelCounter: 0
+  currentLevelCounter: 18
   CurrentTempScore: 2
 --- !u!4 &230936003
 Transform:
@@ -479,12 +479,12 @@ Prefab:
     - target: {fileID: 224492747591745354, guid: ba3310cb6686ec04e93ad212ba379d33,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224674071724688350, guid: ba3310cb6686ec04e93ad212ba379d33,
         type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 224526161873117244, guid: ba3310cb6686ec04e93ad212ba379d33,
         type: 2}
@@ -494,12 +494,12 @@ Prefab:
     - target: {fileID: 224207547500385758, guid: ba3310cb6686ec04e93ad212ba379d33,
         type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224063436484375244, guid: ba3310cb6686ec04e93ad212ba379d33,
         type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba3310cb6686ec04e93ad212ba379d33, type: 2}
@@ -1236,7 +1236,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
