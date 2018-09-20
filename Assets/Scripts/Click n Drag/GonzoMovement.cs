@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GonzoMovement : MonoBehaviour
 {
+    private AudioFSM AudioManager;
+
     public enum MoveDirection
     {
         UP,
@@ -11,6 +13,7 @@ public class GonzoMovement : MonoBehaviour
         LEFT,
         RIGHT
     }
+
     public MoveDirection moveDirection;
     public Vector3 dir = Vector3.zero;
     public float moveSpeed = 5;
@@ -24,144 +27,157 @@ public class GonzoMovement : MonoBehaviour
     private MoveDirection startDir;
     private Vector3 startPos;
 
-    public void OnInit( )
+    public void OnInit()
     {
-        bMan = FindObjectOfType<ButtonManager>( );
-        rMan = GetComponentInChildren<RhoombaAnimationManager>( );
-        rMan.Init( );
+        bMan = FindObjectOfType<ButtonManager>();
+        rMan = GetComponentInChildren<RhoombaAnimationManager>();
+        rMan.Init();
         hasHitGoal = false;
         hasHitWall = false;
         isReady = false;
         isRotating = false;
         startDir = moveDirection;
         startPos = transform.position;
-        ChangeDirection( moveDirection );
+        ChangeDirection(moveDirection);
     }
 
-    void Update( )
+    private void Update()
     {
-        if( hasHitGoal || isRotating )
+        if (hasHitGoal || isRotating)
             return;
 
-        if( !hasHitWall && isReady )
-            transform.Translate( dir * moveSpeed * Time.deltaTime );
+        if (!hasHitWall && isReady)
+            transform.Translate(dir * moveSpeed * Time.deltaTime);
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.AreYouSureAudioClip);
+        }
     }
 
-    void OnTriggerEnter( Collider other )
+    private void OnTriggerEnter(Collider other)
     {
-        if( other.tag == "Point" )
+        if (other.tag == "Point")
         {
-            TileBehaviour tb = other.GetComponentInChildren<TileBehaviour>( );
-            if( tb != null )
-                StartCoroutine( StartChangeDirection( tb.GetDirection( ), tb.gameObject ) );
+            TileBehaviour tb = other.GetComponentInChildren<TileBehaviour>();
+            if (tb != null)
+                StartCoroutine(StartChangeDirection(tb.GetDirection(), tb.gameObject));
             //Debug.Log( "We are hitting tiles" );
         }
 
-        if( other.tag == "Goal" )
+        if (other.tag == "Goal")
         {
-            StartCoroutine( StartWinGame( ) );
+            StartCoroutine(StartWinGame());
         }
 
-        if( other.tag == "Wall" )
+        if (other.tag == "Wall")
         {
+            AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.BonkAudioClip);
             hasHitWall = true;
-            rMan.PlayHitWall( );
+            rMan.PlayHitWall();
         }
     }
 
-    IEnumerator StartChangeDirection( MoveDirection _dir, GameObject obj )
+    private IEnumerator StartChangeDirection(MoveDirection _dir, GameObject obj)
     {
-        yield return new WaitForSeconds( ( 1 / moveSpeed ) * 3 );
+        yield return new WaitForSeconds((1 / moveSpeed) * 3);
         isRotating = true;
         transform.position = obj.transform.position;
-        yield return new WaitForSeconds( 0.1f );
+        yield return new WaitForSeconds(0.1f);
         isRotating = false;
-        ChangeDirection( _dir );
+        AudioManager.PlaySound(AudioManager.RhoombaAudioClip);
+        ChangeDirection(_dir);
     }
 
-    IEnumerator StartWinGame( )
+    private IEnumerator StartWinGame()
     {
-        yield return new WaitForSeconds( ( 1 / moveSpeed ) * 3 );
+        yield return new WaitForSeconds((1 / moveSpeed) * 3);
         hasHitGoal = true;
-        rMan.gameObject.SetActive( false );
-        bMan.OnEnterGoal( );
+        rMan.gameObject.SetActive(false);
+        bMan.OnEnterGoal();
     }
 
-    void ChangeDirection( MoveDirection _dir )
+    private void ChangeDirection(MoveDirection _dir)
     {
-        switch ( _dir )
+        switch (_dir)
         {
             case MoveDirection.UP:
                 dir = Vector3.up;
-                if( !isReady )
-                    rMan.PlayUpSleep( );
+                if (!isReady)
+                    rMan.PlayUpSleep();
                 else
-                    rMan.PlayUpMoving( );
+                    rMan.PlayUpMoving();
                 break;
+
             case MoveDirection.LEFT:
                 dir = Vector3.left;
-                if( !isReady )
-                    rMan.PlaySideSleep( false );
+                if (!isReady)
+                    rMan.PlaySideSleep(false);
                 else
-                    rMan.PlaySideMoving( false );
+                    rMan.PlaySideMoving(false);
                 break;
+
             case MoveDirection.RIGHT:
                 dir = Vector3.right;
-                if( !isReady )
-                    rMan.PlaySideSleep( true );
+                if (!isReady)
+                    rMan.PlaySideSleep(true);
                 else
-                    rMan.PlaySideMoving( true );
+                    rMan.PlaySideMoving(true);
                 break;
+
             case MoveDirection.DOWN:
                 dir = Vector3.down;
-                if( !isReady )
-                    rMan.PlayDownSleep( );
+                if (!isReady)
+                    rMan.PlayDownSleep();
                 else
-                    rMan.PlayDownMoving( );
+                    rMan.PlayDownMoving();
                 break;
         }
     }
 
-    void WakeUpRhoomba( MoveDirection _dir )
+    private void WakeUpRhoomba(MoveDirection _dir)
     {
-        switch ( _dir )
+        switch (_dir)
         {
             case MoveDirection.UP:
-                rMan.PlayUpWakeUp( );
+                rMan.PlayUpWakeUp();
                 break;
+
             case MoveDirection.LEFT:
-                rMan.PlaySideWakeUp( false );
+                rMan.PlaySideWakeUp(false);
                 break;
+
             case MoveDirection.RIGHT:
-                rMan.PlaySideWakeUp( true );
+                rMan.PlaySideWakeUp(true);
                 break;
+
             case MoveDirection.DOWN:
-                rMan.PlayDownWakeUp( );
+                rMan.PlayDownWakeUp();
                 break;
         }
     }
 
-    IEnumerator startWakeUpRhoomba( )
+    private IEnumerator startWakeUpRhoomba()
     {
-        WakeUpRhoomba( startDir );
-        yield return new WaitForSeconds( 1.07f );
+        WakeUpRhoomba(startDir);
+        yield return new WaitForSeconds(1.07f);
         isReady = true;
-        ChangeDirection( startDir );
+        ChangeDirection(startDir);
     }
 
-    public void OnStart( )
+    public void OnStart()
     {
-        StartCoroutine( startWakeUpRhoomba( ) );
+        StartCoroutine(startWakeUpRhoomba());
+        AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.RhoombaAudioClip);
     }
 
-    public void Reset( )
+    public void Reset()
     {
-        StopAllCoroutines( );
+        StopAllCoroutines();
         hasHitGoal = false;
         hasHitWall = false;
         isReady = false;
         transform.position = startPos;
-        rMan.gameObject.SetActive( true );
-        ChangeDirection( startDir );
+        rMan.gameObject.SetActive(true);
+        ChangeDirection(startDir);
     }
 }

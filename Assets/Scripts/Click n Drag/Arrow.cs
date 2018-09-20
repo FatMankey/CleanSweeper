@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Arrow : MonoBehaviour
 {
     // the arrow script will have a reference to it's
-    // tile object. This tile object will be a 
+    // tile object. This tile object will be a
     // prefab that will become a child to the tile
     // it is currently hovered over
 
@@ -25,73 +25,79 @@ public class Arrow : MonoBehaviour
     private Vector3 mousePos;
     private int _numberOfArrows = 0;
 
-    public void OnInit( int num )
+    public void OnInit(int num)
     {
-        myTiles = new List<GameObject>( );
+        myTiles = new List<GameObject>();
         tile = null;
         hasStarted = false;
         numberOfArrows = num;
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
-        foreach( GameObject go in GameObject.FindGameObjectsWithTag( "Point" ) )
+        foreach (GameObject go in GameObject.FindGameObjectsWithTag("Point"))
         {
-            ListOfTiles.Add( go );
+            ListOfTiles.Add(go);
         }
         NumberImage.sprite = NumberSprites[_numberOfArrows];
         ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
     }
 
-    public void OnBeginDrag( )
+    public void OnBeginDrag()
     {
-        if( isOutOfArrows || hasStarted )
+        AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.PickingUpArrowAudioClip);
+        if (isOutOfArrows || hasStarted)
             return;
-        tile = (GameObject)Instantiate( tileBehaviour.gameObject, transform.position, Quaternion.identity );
+        tile = (GameObject)Instantiate(tileBehaviour.gameObject, transform.position, Quaternion.identity);
     }
 
-    public void OnDrag( )
+    public void OnDrag()
     {
-        if( isOutOfArrows || hasStarted )
+        if (isOutOfArrows || hasStarted)
             return;
-        mousePos = Camera.main.ScreenToWorldPoint( Input.mousePosition );
+        mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0;
         tile.transform.position = mousePos;
     }
 
-    public void OnEndDrag( )
+    public void OnEndDrag()
     {
-        if( isOutOfArrows || hasStarted )
+        if (isOutOfArrows || hasStarted)
             return;
-        PlaceTile( mousePos );
-        if( tile != null )
-            Destroy( tile );
+        PlaceTile(mousePos);
+        if (tile != null)
+            Destroy(tile);
     }
 
-    void PlaceTile( Vector3 pos )
+    private void PlaceTile(Vector3 pos)
     {
-        RaycastHit hit; 
-        Ray ray = Camera.main.ScreenPointToRay( Input.mousePosition ); 
-        if( Physics.Raycast( ray, out hit ) )
+        RaycastHit hit;
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        if (Physics.Raycast(ray, out hit))
         {
-            if( hit.collider.gameObject.tag == "Point" )
+            if (hit.collider.gameObject.tag == "Point")
             {
-                if( hit.collider.GetComponentInChildren<TileBehaviour>( ) == null )
-                {                    
+                if (hit.collider.GetComponentInChildren<TileBehaviour>() == null)
+                {
                     tile.transform.parent = hit.collider.gameObject.transform;
                     tile.transform.localPosition = Vector3.zero;
-                    myTiles.Add( tile );
+                    myTiles.Add(tile);
                     tile = null;
                     _numberOfArrows--;
                     NumberImage.sprite = NumberSprites[_numberOfArrows];
                     isOutOfArrows = _numberOfArrows > 0 ? false : true;
                     ArrowImage.sprite = ArrowSprites[isOutOfArrows == false ? 1 : 0];
+                    AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.ConfirmAudioClip);
                 }
+            }
+            else
+            {
+                AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.CantPlaceArrowAudioClip);
             }
         }
     }
 
-    public void Reset( )
+    public void Reset()
     {
-        Debug.Log( "Reset arrow" );
+        Debug.Log("Reset arrow");
         _numberOfArrows = numberOfArrows;
         isOutOfArrows = _numberOfArrows > 0 ? false : true;
         NumberImage.sprite = NumberSprites[_numberOfArrows];
@@ -99,11 +105,11 @@ public class Arrow : MonoBehaviour
         tile = null;
         hasStarted = false;
 
-        if( myTiles.Count > 0 )
+        if (myTiles.Count > 0)
         {
-            for( int i = myTiles.Count - 1; i >= 0; i-- )
+            for (int i = myTiles.Count - 1; i >= 0; i--)
             {
-                Destroy( myTiles[i] );
+                Destroy(myTiles[i]);
             }
         }
         ListOfTiles.Clear();

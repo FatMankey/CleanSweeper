@@ -6,6 +6,7 @@ public class ButtonManager : MonoBehaviour
 {
     public GonzoMovement[] gonzoMovement;
     public GameObject[] OilsGameObject;
+
     [System.Serializable]
     public class CustomArrows
     {
@@ -13,6 +14,7 @@ public class ButtonManager : MonoBehaviour
         public Arrow arrow;
         public int numberOfArrows = 0;
     }
+
     public CustomArrows[] Arrows;
     public GameObject GoButton;
     public GameObject ResetButton;
@@ -22,76 +24,78 @@ public class ButtonManager : MonoBehaviour
     private int roombaCounter = 0;
     private bool isGo = false;
 
-    void OnEnable( )
+    private void OnEnable()
     {
-        lMan = FindObjectOfType<LevelManager>( );
+        lMan = FindObjectOfType<LevelManager>();
         roombaCounter = 0;
         isGo = false;
-        for( int i = 0; i < 4; i++ )
+        for (int i = 0; i < 4; i++)
         {
-            Arrows[i].arrow.OnInit( Arrows[i].numberOfArrows );
+            Arrows[i].arrow.OnInit(Arrows[i].numberOfArrows);
         }
-        for( int i = 0; i < gonzoMovement.Length; i++ )
+        for (int i = 0; i < gonzoMovement.Length; i++)
         {
-            gonzoMovement[i].OnInit( );
+            gonzoMovement[i].OnInit();
         }
 
         OilsGameObject = GameObject.FindGameObjectsWithTag("Oil");
     }
 
-    public void OnGoButton( )
+    public void OnGoButton()
     {
-        if( isGo )
+        if (isGo)
             return;
         isGo = true;
-        for( int i = 0; i < Arrows.Length; i++ )
+        for (int i = 0; i < Arrows.Length; i++)
         {
             Arrows[i].arrow.hasStarted = true;
         }
-        for( int i = 0; i < gonzoMovement.Length; i++ )
+        for (int i = 0; i < gonzoMovement.Length; i++)
         {
-            gonzoMovement[i].OnStart( );
+            gonzoMovement[i].OnStart();
         }
+        AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.Go);
     }
 
-    public void OnResetButton( )
+    public void OnResetButton()
     {
-        for( int i = 0; i < Arrows.Length; i++ )
+        for (int i = 0; i < Arrows.Length; i++)
         {
-            Arrows[i].arrow.Reset( );
+            Arrows[i].arrow.Reset();
         }
 
-        for( int i = 0; i < gonzoMovement.Length; i++ )
+        for (int i = 0; i < gonzoMovement.Length; i++)
         {
-            gonzoMovement[i].Reset( );
+            gonzoMovement[i].Reset();
         }
 
-        if( OilsGameObject != null || OilsGameObject.Length != 0 )
+        if (OilsGameObject != null || OilsGameObject.Length != 0)
         {
-            foreach( var go in OilsGameObject )
+            foreach (var go in OilsGameObject)
             {
-                go.SetActive( true );
+                go.SetActive(true);
             }
         }
 
         roombaCounter = 0;
         isGo = false;
+        AudioFSM.AudioFsm.PlaySound(AudioFSM.AudioFsm.ResetAudioClip);
     }
 
-    public void OnEnterGoal( )
+    public void OnEnterGoal()
     {
         roombaCounter++;
-        if( roombaCounter >= gonzoMovement.Length )
+        if (roombaCounter >= gonzoMovement.Length)
         {
-            StartCoroutine( StartGameWon( ) );
+            StartCoroutine(StartGameWon());
         }
     }
-    
-    IEnumerator StartGameWon( )
+
+    private IEnumerator StartGameWon()
     {
-        WinnerBanner.SetActive( true );
-        yield return new WaitForSeconds( 2.5f );
-        WinnerBanner.SetActive( false );
-        lMan.OnNextLevel( );
+        WinnerBanner.SetActive(true);
+        yield return new WaitForSeconds(2.5f);
+        WinnerBanner.SetActive(false);
+        lMan.OnNextLevel();
     }
 }
